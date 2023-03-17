@@ -3,3 +3,29 @@ header {
     background-color: teal;
     width: 100%;
 } 
+
+/* Media queries */
+
+@media screen and (max-width: 1183px) {
+    .head {
+        font-size: 35px;
+    }
+    main {
+         flex: auto;
+    }
+    #card {
+        width: 650px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .head {
+        font-size: 25px;
+    }
+    
+    #card {
+        width:450px ;
+        height:450px ;
+      
+    }

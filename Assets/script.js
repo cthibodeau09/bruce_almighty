@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+  
+/*Weather API */
 var APIKEY = "d67149e00c3ad3b928d7c75156d20ed8"; 
 
 var city;
