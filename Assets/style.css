@@ -9,15 +9,20 @@ body {
 
 main {
     background: #f99109;
+    height: 500px;
     border-radius: 4px;
 }
 
 #main-card{
     font-size: 20px;
     margin-bottom: 10px;
-    width: 87%;
+    width: auto;
     margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    border: solid;
+    border-radius: 5px;
+    
 }
 
 #main-card span, #main-card img{
@@ -54,11 +59,11 @@ main {
 .daily-card{
     background-color: rgb(247, 237, 151);
     padding: 5px;
-    text-align: center;
+    text-align: left;
     border: solid;
     border-width: 2px;
     border-radius: 15px;
-    height: 150px;
+    height: 200px;
     width: auto;
 }
 
