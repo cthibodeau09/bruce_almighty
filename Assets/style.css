@@ -1,8 +1,68 @@
 header {
     text-align: center;
-    background-color: teal;
     width: 100%;
 } 
+
+body {
+    background-color: white;
+}
+
+main {
+    background: #f99109;
+    border-radius: 4px;
+}
+
+#main-card{
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 87%;
+    margin-left: auto;
+    text-align: center;
+}
+
+#main-card span, #main-card img{
+    padding: 5px;
+}
+
+#todays-day {
+    text-align: center;
+}
+
+#todays-info {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 45% 45%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.five-day {
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding: auto;
+}
+
+#container-daily-cards {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    column-gap: 3%;
+    justify-content: center;
+}
+
+.daily-card{
+    background-color: rgb(247, 237, 151);
+    padding: 5px;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    height: 150px;
+    width: auto;
+}
+
+
 
 /* Media queries */
 
@@ -12,8 +72,9 @@ header {
     }
     main {
          flex: auto;
+        
     }
-    #card {
+    #search {
         width: 650px;
         height: 650px;
     }
@@ -23,9 +84,12 @@ header {
     .head {
         font-size: 25px;
     }
-    
-    #card {
-        width:450px ;
-        height:450px ;
-      
+
+    .daily-card {
+        width: auto;
+        height: 100px;
+        padding: 10 10 10 10;
+        margin: 5 5 5 5;
     }
+
+}

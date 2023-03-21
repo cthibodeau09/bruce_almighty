@@ -11,10 +11,88 @@
     <header>
         <h1>Local Weather</h1>
     </header>
-    <div class="card">
-        <input type="text" class="search-bar">
-        <button>Search</button>
-    </div>
+    <main>
+        <section id="search-container">
+            <aside>
+                <div class="search">
+                    <h4>Search for a City:</h4>
+                    <input type="text" class="search-bar">
+                    <button type="submit" id="search-btn">Search</button>
+                
+                <button id="clear-history">Clear search history</button>
+            </aside>
+            <div id="history-list">
+                </div>
+        </section>
+
+        <section id="weather-display">
+            <div id="main-card">
+                <div id="today"><span id="city-name>">City</span>
+                </div>
+                <div id="todays-info">
+                    <div><img src="" id="today-img"></div>
+                    <span id="today-max">Max Temp:</span>
+                    <span id="today-min">Min Temp:</span>
+                    <span id="today-wind">Wind Speed:</span>
+                    <span id="today-humidity">Humidity:</span>
+                  </div>
+                </div>
+                <div class="five-day">
+                  5 day forecast
+                </div>
+                <div id="container-daily-cards">
+                  <div class="daily-card" data-fiveday="0">
+                    <p class="day"></p>
+                    <hr>
+                    <img src="" class="weather-img">
+                    <p class="max">Max Temp:</p>
+                    <p class="min">Min Temp:</p>
+                    <p class="wind">Wind Speed:</p>
+                    <p class="humidity">Humidity:</p>
+                  </div>        
+                  <div class="daily-card" data-fiveday="1">
+                    <p class="day"></p>
+                    <hr>
+                    <img src="" class="weather-img">
+                    <p class="max">Max Temp:</p>
+                    <p class="min">Min Temp:</p>
+                    <p class="wind">Wind Speed:</p>
+                    <p class="humidity">Humidity:</p>
+                  </div>        
+                  <div class="daily-card" data-fiveday="2">
+                    <p class="day"></p>
+                    <hr>
+                    <img src="" class="weather-img">
+                    <p class="max">Max Speed:</p>
+                    <p class="min">Min Speed:</p>
+                    <p class="wind">Wind Speed:</p>
+                    <p class="humidity">Humidity:</p>
+                  </div>        
+                  <div class="daily-card" data-fiveday="3">
+                    <p class="day"></p>
+                    <hr>
+                    <img src="" class="weather-img">
+                    <p class="max">Max Temp:</p>
+                    <p class="min">Min Temp:</p>
+                    <p class="wind">Wind Speed:</p>
+                    <p class="humidity">Humidity:</p>
+                  </div>        
+                  <div class="daily-card" data-fiveday="4">
+                    <p class="day"></p>
+                    <hr>
+                    <img src="" class="weather-img">
+                    <p class="max">Max Temp:</p>
+                    <p class="min">Min Temp:</p>
+                    <p class="wind">Wind Speed:</p>
+                    <p class="humidity">Humidity:</p>
+                  </div>
+        
+                </div>
+            </div>
+
+        </section>
+
+</main>
 </body>
 <script src="./Assets/script.js"></script>
 </html>
