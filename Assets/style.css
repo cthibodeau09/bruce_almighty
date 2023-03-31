@@ -1,14 +1,16 @@
+
+body {
+    background-image: url("./images/weather1.avif");
+    background-size: 100%;
+}
+
 header {
     text-align: center;
     width: 100%;
 } 
 
-body {
-    background-color: white;
-}
-
 main {
-    background: #f99109;
+    background: #9fbddd;
     height: 500px;
     border-radius: 4px;
 }
@@ -25,39 +27,30 @@ main {
     
 }
 
-#main-card span, #main-card img{
-    padding: 5px;
-}
 
-#todays-day {
+#row {
     text-align: center;
-}
-
-#todays-info {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 45% 45%;
-    justify-content: center;
-    align-items: center;
 
 }
 
 .five-day {
     text-align: center;
+    grid-template-columns: auto;
     font-size: 20px;
     margin: auto;
     padding: auto;
 }
 
-#container-daily-cards {
+#container {
+
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-columns: 20%;
     column-gap: 3%;
     justify-content: center;
 }
 
-.daily-card{
-    background-color: rgb(247, 237, 151);
+#daily-card{
+    background-color: rgb(233, 232, 219);
     padding: 5px;
     text-align: left;
     border: solid;
@@ -66,6 +59,7 @@ main {
     height: 200px;
     width: auto;
 }
+
 
 
 
