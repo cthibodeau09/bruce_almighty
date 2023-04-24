@@ -12,5 +12,3 @@ This website features a search bar using a weather API to grab 5 days of weather
 https://github.com/cthibodeau09/bruce_almighty
 
 https://cthibodeau09.github.io/bruce_almighty
-
-![Screenshot 2023-03-20 at 10 03 01 PM](https://user-images.githubusercontent.com/123329107/226502572-159b9a2e-c2ec-4ee7-9f1c-43ef05a76699.png)
