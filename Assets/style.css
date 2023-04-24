@@ -28,28 +28,22 @@ main {
 }
 
 
-#row {
+.row {
     text-align: center;
 
 }
 
-.five-day {
-    text-align: center;
-    grid-template-columns: auto;
-    font-size: 20px;
-    margin: auto;
-    padding: auto;
+.conditions {
+    text-align: left;
 }
 
-#container {
-
+#five-day {
     display: grid;
-    grid-template-columns: 20%;
-    column-gap: 3%;
-    justify-content: center;
+font-size: 60;
+
 }
 
-#daily-card{
+.daily-card{
     background-color: rgb(233, 232, 219);
     padding: 5px;
     text-align: left;
