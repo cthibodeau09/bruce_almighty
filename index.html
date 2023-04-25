@@ -14,29 +14,26 @@
     <div class="row">
       <div class="">
               <!-- Search header -->
-              <h3>Search for city:</h3>
               <!-- Search box and button -->
-              <div class="input-group mb-3">
+              <div class="main-card">
+                <h3>Search for city:</h3>
                   <input id="city" type="text" class="form-control" placeholder="Enter city"
                       aria-label="Search city box" aria-describedby="button-search">
-                  <div class="input-group-append">
+                
                       <button class="btn btn-primary p-2 m-2" type="submit" id="searchBtn"
                           aria-label="Submit search button" title="Submit search">Search<i
                               class="fas fa-search-location fa-2x"></i></button>
-                  </div>
-              </div>
-             
-              
-              <!-- Div for previously searched cities -->
-              <h3>Past searches: <button class="btn btn-primary" id="clear-history" title="Clear search results"
-                      aria-label="Clear search results button">Clear history<i class="fa fa-trash"></i></button>
-              </h3>
-              <div id="search-history">
-                  <!-- Display search history here -->
-              </div>
-          </aside>
+
+  <!-- Div for previously searched cities -->
+  <div class="searches">
+    <h3>Past searches: <button class="btn btn-primary" id="clear-history" title="Clear search results"
+            aria-label="Clear search results button">Clear history<i class="fa fa-trash"></i></button>
+    </h3>
+    <div id="search-history">
       </div>
-      <hr>
+      </div>
+      </div>
+      
       <!-- Current Conditions -->
       <div class="col-md-9">
           <main>
@@ -50,8 +47,9 @@
               </div>
               <!-- 5 Day Forecast -->
               <div id="five-day">
-                  <div class="row">
-                      <h2>5 Day Forecast</h2>
+                <h2>5 Day Forecast</h2>
+                  <div class="days">
+                     
                       <div class="day col-sm p-2">
                       </div>
                       <div class="day col-sm p-2">

@@ -11,25 +11,32 @@ header {
 
 main {
     background: #9fbddd;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     height: 500px;
     border-radius: 4px;
 }
 
-#main-card{
+.main-card{
     font-size: 20px;
-    margin-bottom: 10px;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
     border: solid;
     border-radius: 5px;
-    
+    display: flex;
 }
 
 
-.row {
+.days {
     text-align: center;
+    display: flex;
+    column-gap: 30px;
 
 }
 
@@ -37,52 +44,53 @@ main {
     text-align: left;
 }
 
-#five-day {
-    display: grid;
-font-size: 60;
 
-}
-
-.daily-card{
-    background-color: rgb(233, 232, 219);
-    padding: 5px;
-    text-align: left;
-    border: solid;
-    border-width: 2px;
-    border-radius: 15px;
-    height: 200px;
-    width: auto;
-}
 
 
 
 
 /* Media queries */
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 1200px) {
     .head {
         font-size: 35px;
     }
     main {
-         flex: auto;
-        
+         flex: auto;    
     }
-    #search {
-        width: 650px;
-        height: 650px;
+
+
+    .days{
+        column-gap: 10px;
     }
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 900px) {
     .head {
         font-size: 25px;
     }
 
-    .daily-card {
-        width: auto;
-        height: 100px;
-        padding: 10 10 10 10;
-        margin: 5 5 5 5;
+    main{
+        flex: auto;
+    }
+
+    .days{
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+        font-size: 25px;
+    }
+
+    main{
+        flex: auto;
+    }
+
+    .days{
+        column-gap: 10px;
     }
 
 }
